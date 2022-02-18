@@ -66,8 +66,9 @@ function squareNumbers() {
   Write a for or a while loop
   return the result */
   const cont = [];
-  for(let i = 1; i <= 100; i++){
-    let aux = i * i;
+  let aux = 0;
+  for(let i = 1; aux < 100; i++){
+    aux = i * i;
     cont.push(aux);
   }
   return cont; 
@@ -143,8 +144,9 @@ function squareNumbersBackwards() {
   Write a for or a while loop
   return the result */
   const cont = [];
-  for(let i = 100; i >= 1; i--){
-    let aux = i * i;
+  let aux = 0;
+  for(let i = 10; i >= 1; i--){
+    aux = i * i;
     cont.push(aux);
   }
   return cont; 
